@@ -3,9 +3,9 @@ var disabled = false;
 function changeClass(classe){
     let lvl = 1;
     if(classe.value == "corredor"){
-        $(".skill[name='reator']").val(3);
-        $(".skill[name='sensores']").val(8);
-        $(".skill[name='velocidade']").val(5);
+        $(".skill[name='reator']").val(5);
+        $(".skill[name='sensores']").val(5);
+        $(".skill[name='velocidade']").val(7);
         $(".skill[name='tamanho']").val(1);
         $(".maxLife").text(4 + (2*(lvl-1)));
         $(".actualLife").text(4 + (2*(lvl-1)));
